@@ -9,14 +9,14 @@ CREATE TABLE Books(
 );
 
 CREATE TABLE Authors(
-    author_id(PRIMARY KEY),
-    author_name VARCHAR(215)
+    author_id (PRIMARY KEY),
+    author_name VARCHAR (215)
 );
 
 CREATE TABLE Customers(
-    customer_id(PRIMARY KEY),
-    customer_name VARCHAR(215),
-    email VARCHAR(215),
+    customer_id (PRIMARY KEY),
+    customer_name VARCHAR (215),
+    email VARCHAR (215),
     address TEXT
 );
 
