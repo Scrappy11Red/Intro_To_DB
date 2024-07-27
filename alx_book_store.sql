@@ -8,7 +8,7 @@ CREATE TABLE Books(
     publication(DATE)
 );
 
-CREATE TABLE Author(
+CREATE TABLE Authors(
     author_id(PRIMARY KEY),
     author_name VARCHAR(215)
 );
