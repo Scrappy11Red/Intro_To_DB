@@ -1,3 +1,5 @@
-USE alx_book_store;
-SELECT books
-FROM alx_book_store;
+USE alx_book_store
+SELECT INFORMATION_SCHEMA.COLUMNS
+FROM COLUMN_NAME, COLUMN_TYPE
+WHERE TABLE_SCHEMA = 'alx_book_store'
+AND TABLE_NAME = 'Books';
